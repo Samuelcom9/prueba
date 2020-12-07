@@ -1,0 +1,124 @@
+body{
+	padding:5px;
+	margin:5px;
+	background-image: url('../images/flywheel.jpg');
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-size: 100%;
+}
+
+header{
+	text-align: center;
+
+}
+
+h1{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+nav a{
+	display: inline-block;
+	width: 10%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	background: rgba(255,255,255,0.4);
+	color: #000000;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.active{
+	background: #FFFFFF;
+
+}
+
+img{
+	display: block;
+	margin: 50px;
+	border: 2px solid #000000;
+
+	width: 180px;
+}
+
+.left{
+	float: left;
+	background: #E39F21;
+	height: 50%;
+	padding-bottom: 6px;
+}
+
+.right{
+	display: inline-block;
+	background: #FFFFFF;
+	width: 50%;
+	padding-left: 2%;
+	padding-right: 25%;
+	padding-bottom: 20%;
+
+}
+
+section{
+	background: #FFFFFF;
+}
+
+	/* Third Homework Requirements */
+	/* Requisitos de la Tercera Tarea */
+
+table{
+	font-family: arial, sans, serif;
+	font-size: 120%;
+	font-weight: 200;
+	line-height: 120%;
+	width: 80%;
+	margin: 10px 10px 10px 10px;
+}
+
+th{
+	color: #FFFFFF;
+	background-color: #E39F21;
+	background: -webkit-gradient(linear, left top, right bottom, from(#CD8501), to (#FFD07A));
+	background: -o-linear-gradient(top left, #CD8501, #FFD07A);
+	background: linear-gradient(to bottom right, #CD8501, #FFD07A);	
+	font-size: 95%;
+	border: solid #E39F21;
+	border-bottom-width: thick; 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+th:first-child{
+	text-align: left;
+}
+
+tr{
+	background-color: rgba(227, 159, 33, .6);
+	color: #616006;
+	font-size: 95%;
+} 
+
+td{
+	padding: 7px;
+	color: #616006;
+	border-radius: 2px;
+	text-shadow: .5px .5px #FFFFFF;
+	text-align: center;
+}
+
+tr:hover{
+	background-color: rgba(227,159,33,1);
+	color: rgba(0,0,0,1);
+}
+
+td:hover{
+	background-color: rgba(227,159,33,1);
+	color: rgba(0,0,0,1);
+}
+
+td:first-child{
+	text-align: left;
+}
+
+
